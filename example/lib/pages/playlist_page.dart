@@ -1,6 +1,7 @@
 import 'package:better_player/better_player.dart';
-import 'package:better_player_example/constants.dart';
-import 'package:better_player_example/utils.dart';
+
+import '../constants.dart';
+import '../utils.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 

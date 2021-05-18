@@ -1,9 +1,11 @@
 import 'dart:math';
 
-import 'package:better_player_example/constants.dart';
-import 'package:better_player_example/model/video_list_data.dart';
+
+
 import 'package:flutter/material.dart';
 
+import '../../constants.dart';
+import '../../model/video_list_data.dart';
 import 'video_list_widget.dart';
 
 class VideoListPage extends StatefulWidget {
@@ -14,7 +16,7 @@ class VideoListPage extends StatefulWidget {
 class _VideoListPageState extends State<VideoListPage> {
   final _random = new Random();
   final List<String> _videos = [
-    Constants.bugBuckBunnyVideoUrl,
+    Constants .bugBuckBunnyVideoUrl,
     Constants.forBiggerBlazesUrl,
     Constants.forBiggerJoyridesVideoUrl,
     Constants.elephantDreamVideoUrl,

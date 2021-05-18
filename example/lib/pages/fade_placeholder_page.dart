@@ -1,7 +1,9 @@
 import 'dart:async';
 
 import 'package:better_player/better_player.dart';
-import 'package:better_player_example/constants.dart';
+
+import '../constants.dart';
+import '../utils.dart';
 import 'package:flutter/material.dart';
 
 class FadePlaceholderPage extends StatefulWidget {

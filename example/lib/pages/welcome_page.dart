@@ -1,35 +1,39 @@
 import 'dart:io';
 
-import 'package:better_player_example/constants.dart';
-import 'package:better_player_example/pages/auto_fullscreen_orientation_page.dart';
-import 'package:better_player_example/pages/basic_player_page.dart';
-import 'package:better_player_example/pages/cache_page.dart';
-import 'package:better_player_example/pages/change_player_theme_page.dart';
-import 'package:better_player_example/pages/controller_controls_page.dart';
-import 'package:better_player_example/pages/controls_always_visible_page.dart';
-import 'package:better_player_example/pages/controls_configuration_page.dart';
-import 'package:better_player_example/pages/drm_page.dart';
-import 'package:better_player_example/pages/event_listener_page.dart';
-import 'package:better_player_example/pages/fade_placeholder_page.dart';
-import 'package:better_player_example/pages/hls_audio_page.dart';
-import 'package:better_player_example/pages/hls_subtitles_page.dart';
-import 'package:better_player_example/pages/hls_tracks_page.dart';
-import 'package:better_player_example/pages/memory_player_page.dart';
-import 'package:better_player_example/pages/normal_player_page.dart';
-import 'package:better_player_example/pages/notification_player_page.dart';
-import 'package:better_player_example/pages/overridden_aspect_ratio_page.dart';
-import 'package:better_player_example/pages/overriden_duration_page.dart';
-import 'package:better_player_example/pages/placeholder_until_play_page.dart';
-import 'package:better_player_example/pages/playlist_page.dart';
-import 'package:better_player_example/pages/resolutions_page.dart';
-import 'package:better_player_example/pages/reusable_video_list/reusable_video_list_page.dart';
-import 'package:better_player_example/pages/rotation_and_fit_page.dart';
-import 'package:better_player_example/pages/subtitles_page.dart';
-import 'package:better_player_example/pages/video_list/video_list_page.dart';
-import 'package:better_player_example/pages/picture_in_picture_page.dart';
+
+import '../constants.dart';
+import '../utils.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:path_provider/path_provider.dart';
+
+import 'auto_fullscreen_orientation_page.dart';
+import 'basic_player_page.dart';
+import 'cache_page.dart';
+import 'change_player_theme_page.dart';
+import 'controller_controls_page.dart';
+import 'controls_always_visible_page.dart';
+import 'controls_configuration_page.dart';
+import 'drm_page.dart';
+import 'event_listener_page.dart';
+import 'fade_placeholder_page.dart';
+import 'hls_audio_page.dart';
+import 'hls_subtitles_page.dart';
+import 'hls_tracks_page.dart';
+import 'memory_player_page.dart';
+import 'normal_player_page.dart';
+import 'notification_player_page.dart';
+import 'overridden_aspect_ratio_page.dart';
+import 'overriden_duration_page.dart';
+import 'picture_in_picture_page.dart';
+import 'placeholder_until_play_page.dart';
+import 'playlist_page.dart';
+import 'resolutions_page.dart';
+import 'reusable_video_list/reusable_video_list_page.dart';
+import 'rotation_and_fit_page.dart';
+import 'subtitles_page.dart';
+import 'video_list/video_list_page.dart';
 
 class WelcomePage extends StatefulWidget {
   @override

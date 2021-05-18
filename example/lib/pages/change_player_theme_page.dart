@@ -1,7 +1,10 @@
 import 'package:better_player/better_player.dart';
-import 'package:better_player_example/constants.dart';
-import 'package:better_player_example/pages/custom_controls/custom_controls_widget.dart';
+
+import '../constants.dart';
+import '../utils.dart';
 import 'package:flutter/material.dart';
+
+import 'custom_controls/custom_controls_widget.dart';
 
 class ChangePlayerThemePage extends StatefulWidget {
   @override

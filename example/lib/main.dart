@@ -1,6 +1,8 @@
-import 'package:better_player_example/pages/welcome_page.dart';
+
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
+
+import 'pages/welcome_page.dart';
 
 void main() => runApp(MyApp());
 
